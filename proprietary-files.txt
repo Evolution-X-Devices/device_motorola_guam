@@ -135,8 +135,9 @@ vendor/lib64/libswregistrationalgo.so|a647844c7fbab585cc5678247a79ef59bdfaf034
 vendor/lib64/libtfestriping.so|2df838e6faa75b6223ced5ab7e58368e2132c1f8
 vendor/lib64/libvidhance.so|78f06bc683c17aeb6e186588e8051e808f596c2e|b58c6f0af6939b3e62759ce1ef7a653580249f69
 
-# Camera configs
-vendor/etc/camera/dual_golden_depth.bin
+# Camera configs - from guamp_retail RPX31.Q2-58-17-7-5
+vendor/etc/camera/dual_golden_depth.bin|78e4660e3d3b2aeda3841e3d946da8b56d075453
+vendor/etc/camera/vidhance_calibration|0c182eb706875ad1bc244fc7378629e182c10f57
 
 # Display (Calibration Data)
 vendor/etc/qdcm_calib_data_mipi_mot_vid_djn_720p_652.xml
