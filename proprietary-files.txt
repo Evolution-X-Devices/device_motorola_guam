@@ -17,22 +17,24 @@ vendor/firmware/aw882xx_spk_reg.bin
 
 # Camera
 vendor/lib64/camera/com.mot.eeprom.mot_dw9763_s5k3l6_eeprom.so
-vendor/lib64/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom.so
-vendor/lib64/camera/com.mot.eeprom.mot_ov02b1b_otp.so
-vendor/lib64/camera/com.mot.eeprom.mot_s5k4h7_otp_eeprom.so
-vendor/lib64/camera/com.qti.sensor.mot_ov02b1b.so
 vendor/lib64/camera/com.qti.sensor.mot_s5k3l6.so
-vendor/lib64/camera/com.qti.sensor.mot_s5k4h7.so
-vendor/lib64/camera/com.qti.sensor.mot_s5kgm1st.so
-vendor/lib64/camera/com.qti.sensormodule.mot_guam_ov02b1b_ofilm.bin
 vendor/lib64/camera/com.qti.sensormodule.mot_guam_s5k3l6_ofilm.bin
-vendor/lib64/camera/com.qti.sensormodule.mot_guam_s5k4h7_ofilm.bin
-vendor/lib64/camera/com.qti.sensormodule.mot_guam_s5kgm1st_ofilm.bin
-vendor/lib64/camera/com.qti.tuned.default.bin
-vendor/lib64/camera/com.qti.tuned.mot_guam_ov02b1b.bin
 vendor/lib64/camera/com.qti.tuned.mot_guam_s5k3l6.bin
-vendor/lib64/camera/com.qti.tuned.mot_guam_s5k4h7.bin
-vendor/lib64/camera/com.qti.tuned.mot_guam_s5kgm1st.bin
+
+# Camera - from guamp_retail RPX31.Q2-58-17-7-5
+vendor/lib64/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom.so|cbdec3926d78360f0c0c41f944ff0fdd42c6fd71
+vendor/lib64/camera/com.mot.eeprom.mot_ov02b1b_otp.so|973cc5e5d63fcd17d846e9eca70e12a9c8fe61c2
+vendor/lib64/camera/com.mot.eeprom.mot_s5k4h7_otp_eeprom.so|b38cd17a31e594ff294b1c39745c3ee20496ee3d
+vendor/lib64/camera/com.qti.sensor.mot_ov02b1b.so|29e82660e95f421a9586ad13ec111ebe13e4aa99
+vendor/lib64/camera/com.qti.sensor.mot_s5k4h7.so|910334f046195124c2c495c8fcc00d5e9c33ea8b
+vendor/lib64/camera/com.qti.sensor.mot_s5kgm1st.so|3ce0cdcdcca3f419b87661eebd3b36807b8b1fae
+vendor/lib64/camera/com.qti.sensormodule.mot_guamp_ov02b1b_ofilm.bin:vendor/lib64/camera/com.qti.sensormodule.mot_guam_ov02b1b_ofilm.bin|a063053148d2cc3f5cf3fea7797f331eb59cb70d
+vendor/lib64/camera/com.qti.sensormodule.mot_guamp_s5k4h7_ofilm.bin:vendor/lib64/camera/com.qti.sensormodule.mot_guam_s5k4h7_ofilm.bin|1b010b7fa3800c4b6fb872d58394e0bb10c46a13
+vendor/lib64/camera/com.qti.sensormodule.mot_guamp_s5kgm1st_ofilm.bin:vendor/lib64/camera/com.qti.sensormodule.mot_guam_s5kgm1st_ofilm.bin|14d89c1bdc007ceceaf406c44abf08a5d401cbaf
+vendor/lib64/camera/com.qti.tuned.default.bin|907a3a6a8c5ddc78a3e1e263a1a7bfcd8a957a54
+vendor/lib64/camera/com.qti.tuned.mot_guamp_ov02b1b.bin:vendor/lib64/camera/com.qti.tuned.mot_guam_ov02b1b.bin|eb1de00a3018ed779710d570b4c078e90cd1f765
+vendor/lib64/camera/com.qti.tuned.mot_guamp_s5k4h7.bin:vendor/lib64/camera/com.qti.tuned.mot_guam_s5k4h7.bin|96c7548b6cdb47cf2d6e2c79f7b63f572827a7dd
+vendor/lib64/camera/com.qti.tuned.mot_guamp_s5kgm1st.bin:vendor/lib64/camera/com.qti.tuned.mot_guam_s5kgm1st.bin|1b6cc59b366b7b004f35ca4b34a7a7c1b2e272e4
 
 # Camera - from guamp_retail RPX31.Q2-58-17-7-5
 vendor/lib64/camera/components/com.qti.camx.chiiqutils.so|c184c5f28b792d17976d133b1f812d52fc11262d
