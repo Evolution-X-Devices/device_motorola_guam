@@ -15,11 +15,11 @@ vendor/firmware/aw882xx_mono.bin
 vendor/firmware/aw882xx_rcv_reg.bin
 vendor/firmware/aw882xx_spk_reg.bin
 
-# Camera
-vendor/lib64/camera/com.mot.eeprom.mot_dw9763_s5k3l6_eeprom.so
-vendor/lib64/camera/com.qti.sensor.mot_s5k3l6.so
-vendor/lib64/camera/com.qti.sensormodule.mot_guam_s5k3l6_ofilm.bin
-vendor/lib64/camera/com.qti.tuned.mot_guam_s5k3l6.bin
+# Camera - from guamna_retail RZA31.Q2-146-14-22-2
+vendor/lib64/camera/com.mot.eeprom.mot_dw9763_s5k3l6_eeprom.so|463e2ba27293d1a22c6b7b5ea615054422c8e808
+vendor/lib64/camera/com.qti.sensor.mot_s5k3l6.so|03b1f718822df98b416a394ce559e2065214742e
+vendor/lib64/camera/com.qti.sensormodule.mot_guamna_s5k3l6_ofilm.bin:vendor/lib64/camera/com.qti.sensormodule.mot_guam_s5k3l6_ofilm.bin|19d2b0f5a76cc9e247721e4783de380ab0ef649d
+vendor/lib64/camera/com.qti.tuned.mot_guamna_s5k3l6.bin:vendor/lib64/camera/com.qti.tuned.mot_guam_s5k3l6.bin|8a4bf1586eb6999071e4e9abf4cfbf193ec0be1d
 
 # Camera - from guamp_retail RPX31.Q2-58-17-7-5
 vendor/lib64/camera/com.mot.eeprom.mot_dw9767_s5kgm1st_eeprom.so|cbdec3926d78360f0c0c41f944ff0fdd42c6fd71
