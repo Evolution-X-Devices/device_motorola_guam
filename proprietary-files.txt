@@ -168,6 +168,14 @@ vendor/firmware/a630_sqe.fw
 # OEM
 vendor/etc/vhw.xml
 
+# Perf configs - from guamna_retail RZA31.Q2-146-14-22-2
+vendor/etc/perf/commonresourceconfigs.xml|47651621904d0a0ea42b72bc9a0df27f99eaeab6
+vendor/etc/perf/perfboostsconfig.xml|983ebd4b46fa1e5c0a0e5405395dc479b440dac3
+vendor/etc/perf/perfconfigstore.xml|b324e1042d611a0739c632ad7a8b81a77f3dfdbb
+vendor/etc/perf/targetconfig.xml|1e89cc36c4c7bdd44581d35e79f66441bd93540e
+vendor/etc/perf/targetresourceconfigs.xml|0e65b492065b6a5e2015ea378eb812016c304fd6
+vendor/etc/powerhint.xml|eb6e36a68c3408eebccfdf791f858b115c59cc46
+
 # Sensors configs
 vendor/etc/sensors/config/bengal_default_sensors.json
 vendor/etc/sensors/config/bengal_dynamic_sensors.json
